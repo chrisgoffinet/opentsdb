@@ -48,7 +48,7 @@ ALPN_BOOT_VERSION = $(shell version= ;\
     elif [[ $$sub -lt 71 ]]; then \
       echo "8.1.6.v20151105"; \
     else \
-      echo "8.1.7.v20160121"; \
+      echo "8.1.11.v20170118"; \
     fi \
   else \
     echo "Unsupported major Java version: $$major"; \
